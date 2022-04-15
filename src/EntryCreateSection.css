@@ -1,0 +1,28 @@
+.EntryCreateSection {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.EntryCreateSection div {
+  text-align: start;
+  flex-basis: 150px;
+}
+
+.EntryCreateSection div label {
+  font-size: 80%;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.EntryCreateSection div input {
+  width: 100%;
+  display: block;
+}
+
+.EntryCreateSection button {
+  flex-basis: 200px;
+  flex: 0.3;
+  max-width: 100px;
+}

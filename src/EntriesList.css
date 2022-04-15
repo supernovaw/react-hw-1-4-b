@@ -1,0 +1,36 @@
+.EntriesList {
+  margin-top: 20px;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.EntriesList td {
+  padding: 0;
+}
+
+.EntriesList thead td:nth-child(1) {
+  width: 20%;
+}
+
+.EntriesList thead td:nth-child(2) {
+  width: 50%;
+}
+
+.EntriesList thead td:nth-child(3) {
+  width: 30%;
+}
+
+.EntriesList tbody tr:hover {
+  background-color: #ccc;
+}
+
+.EntriesList tbody td {
+  padding: 5px;
+}
+
+.no-data {
+  margin-top: 15px;
+  opacity: 0.5;
+  font-style: italic;
+  font-size: 85%;
+}
